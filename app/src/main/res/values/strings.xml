@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Single Screen App</string>
+
+    <string name="mon_txt">Mon : 9:00 - 17:00</string>
+    <string name="tue_txt">Tue : 9:00 - 17:00</string>
+    <string name="wed_txt">Wed : 9:00 - 17:00</string>
+    <string name="thu_txt">Thu : 9:00 - 17:00</string>
+    <string name="fra_txt">Fra : 9:00 - 17:00</string>
+    <string name="adr_txt">Czech republic Prague Rubeska st. 383/4 19000     </string>
+    <string name="consulting">consulting</string>
+    <string name="profi">Profi</string>
+    <string name="finance_tax">finance | tax |</string>
+
+</resources>

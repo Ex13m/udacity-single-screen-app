@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorMainWhite"
+    android:orientation="vertical"
+    tools:context="com.example.android.singlescreenapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginBottom="2dp">
+
+        <TextView
+            android:id="@+id/conbig_txt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="right"
+            android:layout_gravity="bottom"
+            android:text="@string/consulting"
+            android:textAllCaps="true"
+            android:textColor="@color/colorMainBlack"
+            android:textSize="@dimen/FirstTextSize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/profibig_txt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorMainBlack"
+            android:layout_gravity="bottom"
+            android:paddingLeft="4dp"
+            android:text="@string/profi"
+            android:textAllCaps="true"
+            android:textColor="@color/colorMainWhite"
+            android:textSize="@dimen/FirstTextSize"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@color/colorMainBlack"
+            android:gravity="right"
+            android:text="@string/finance_tax"
+            android:textColor="@color/colorMainWhite"
+            android:textSize="@dimen/SecondTextSize"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorMainWhite"
+            android:gravity="left"
+            android:text="@string/consulting"
+            android:textColor="@color/colorMainBlack"
+            android:textSize="@dimen/SecondTextSize" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="36dp"
+        android:layout_weight="3"
+        >
+
+
+
+
+             />
+        <TextView
+            android:id="@+id/textMon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:paddingLeft="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:gravity="right"
+            android:text="@string/mon_txt"
+            android:textColor="@color/colorMainBlack"
+            android:textSize="@dimen/SecondTextSize" />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/textMon"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            app:srcCompat="@drawable/map"
+            android:scaleType="fitXY"/>
+        <TextView
+            android:id="@+id/textTue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_below="@id/textMon"
+            android:layout_toLeftOf="@+id/imageView"
+            android:gravity="right"
+            android:text="@string/tue_txt"
+            android:textColor="@color/colorMainBlack"
+            android:textSize="@dimen/SecondTextSize"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:id="@+id/textWed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_below="@id/textTue"
+            android:layout_toLeftOf="@+id/imageView"
+            android:gravity="right"
+            android:text="@string/wed_txt"
+            android:textColor="@color/colorMainBlack"
+            android:textSize="@dimen/SecondTextSize"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:id="@+id/textThu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_below="@id/textWed"
+            android:layout_toLeftOf="@+id/imageView"
+            android:gravity="right"
+            android:text="@string/thu_txt"
+            android:textColor="@color/colorMainBlack"
+            android:textSize="@dimen/SecondTextSize"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:id="@+id/textFra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_below="@id/textThu"
+            android:layout_toLeftOf="@+id/imageView"
+            android:gravity="right"
+            android:text="@string/fra_txt"
+            android:textColor="@color/colorMainBlack"
+            android:textSize="@dimen/SecondTextSize"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:id="@+id/textAdr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_below="@id/textFra"
+            android:layout_toLeftOf="@+id/imageView"
+            android:gravity="right"
+            android:text="@string/adr_txt"
+            android:textColor="@color/colorMainBlack"
+            android:textSize="@dimen/SecondTextSize"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:background="@color/colorMainBlack"
+                android:gravity="right"
+                android:paddingRight="4dp"
+                android:text="www.konsalting.cz"
+                android:textColor="@color/colorMainWhite"
+                android:textSize="@dimen/SecondTextSize" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:background="@color/colorMainBlack"
+                android:gravity="right"
+                android:paddingRight="4dp"
+                android:text="KonsaltingProfi@gmail.com"
+                android:textColor="@color/colorMainWhite"
+                android:textSize="@dimen/SecondTextSize" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:background="@color/colorMainBlack"
+                android:gravity="right"
+                android:paddingRight="4dp"
+                android:text="+420603500959"
+                android:textColor="@color/colorMainWhite"
+                android:textSize="@dimen/SecondTextSize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:background="@color/colorMainBlack"
+                android:backgroundTint="@color/colorMainWhite"
+                android:gravity="left"
+                android:paddingLeft="2dp"
+                android:text="www"
+                android:textAllCaps="true"
+                android:textColor="@color/colorMainBlack"
+                android:textSize="@dimen/SecondTextSize" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:paddingLeft="2dp"
+                android:textAllCaps="true"
+                android:background="@color/colorMainBlack"
+                android:backgroundTint="@color/colorMainWhite"
+                android:gravity="left"
+                android:text="e-mail"
+                android:textColor="@color/colorMainBlack"
+                android:textSize="@dimen/SecondTextSize" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:paddingLeft="2dp"
+                android:textAllCaps="true"
+                android:background="@color/colorMainBlack"
+                android:backgroundTint="@color/colorMainWhite"
+                android:gravity="left"
+                android:text="Tel"
+                android:textColor="@color/colorMainBlack"
+                android:textSize="@dimen/SecondTextSize" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
